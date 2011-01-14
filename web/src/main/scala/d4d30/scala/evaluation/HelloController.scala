@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping
 @Controller
 class HelloController {
 
-  @RequestMapping(Array("/hello"))
+  @RequestMapping(Array("/hello.do"))
   def greet = "index"
   
 }
