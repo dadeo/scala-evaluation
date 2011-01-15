@@ -10,4 +10,10 @@
 
 |when I navigate to the |hello|page|
 
-|the page contains text|hello world!!!|
+|the page contains text|hello scala world!!!|
+
+!**********> Clean Up
+
+|clean up|
+
+************!

@@ -10,6 +10,7 @@
     <properties>
         <fitnesse.version>20100303</fitnesse.version>
         <fitlibrary.version>20091020</fitlibrary.version>
+        <html-unit.version>2.8</html-unit.version>
         <junit.version>4.8.2</junit.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <scala.version>2.8.1</scala.version>
@@ -133,6 +134,12 @@
                 <groupId>org.fitnesse</groupId>
                 <artifactId>fitlibrary</artifactId>
                 <version>${fitlibrary.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>net.sourceforge.htmlunit</groupId>
+                <artifactId>htmlunit</artifactId>
+                <version>${html-unit.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

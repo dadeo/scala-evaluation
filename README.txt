@@ -7,6 +7,7 @@ the technologies that they are already familiar with.
 Technologies:
     X maven
     X fitnesse
+    X html unit
     X spring mvc
       cas
       hibernate
