@@ -2,3 +2,14 @@ target/
 *.iws
 *.iml
 *.ipr
+fitnesse/FitNesseRoot/files/testResults/
+fitnesse/FitNesseRoot/RecentChanges/
+fitnesse/FitNesseRoot/FitNesse/SuiteAcceptanceTests/
+fitnesse/FitNesseRoot/ErrorLogs/
+fitnesse/FitNesseRoot/FitNesse/SampleWiki/
+fitnesse/FitNesseRoot/FitNesse/UserGuide/
+fitnesse/FitNesseRoot/FitNesse/JunkPage/
+fitnesse/FitNesseRoot/FitNesse/SuiteFitAcceptanceTests/
+fitnesse/FitNesseRoot/FitNesse/SuiteAcceptanceTestsDummy/
+fitnesse/FitNesseRoot/FitNesse/SliM/
+*.zip

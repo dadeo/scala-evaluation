@@ -1,0 +1,13 @@
+!**********> Set Up
+
+!path ../web/target/classes
+!path ../web/target/test-classes
+!path ../web/target/dependencies/*.jar
+
+!|d4d30.scala.evaluation.fixture.WebIntegrationDoFixture|
+
+************!
+
+|when I navigate to the |hello|page|
+
+|the page contains text|hello world!!!|

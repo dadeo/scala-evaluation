@@ -9,8 +9,31 @@
     
     <inceptionYear>2011</inceptionYear>
 
+    <distributionManagement>
+        <repository>
+            <id>google-code-releases</id>
+            <name>Local Maven repository of releases</name>
+            <url>dav:https://dadeo.googlecode.com/svn/mvn-repo/release</url>
+        </repository>
+        <snapshotRepository>
+            <id>google-code-snapshots</id>
+            <name>Local Maven repository of snapshots</name>
+            <url>dav:https://dadeo.googlecode.com/svn/mvn-repo/snapshot</url>
+            <uniqueVersion>false</uniqueVersion>
+        </snapshotRepository>
+    </distributionManagement>
+
     <modules>
         <module>parent</module>
         <module>web</module>
     </modules>
+
+    <build>
+        <extensions>
+            <extension>
+                <groupId>org.apache.maven.wagon</groupId>
+                <artifactId>wagon-webdav</artifactId>
+            </extension>
+        </extensions>        
+    </build>
 </project>
